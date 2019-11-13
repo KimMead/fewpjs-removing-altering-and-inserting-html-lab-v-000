@@ -1,3 +1,7 @@
 // Write your code here!
-let element = document.querySelector("p#greeting");
-element.innerHTML = 'Hello, DOM!'
+var element = document.createElement("div");
+element.innerHTML = 'Hello, DOM!';
+
+document.body.appendChild(element);
+
+var ul = document.createElement('ul');
