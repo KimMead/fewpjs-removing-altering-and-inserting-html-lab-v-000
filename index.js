@@ -1,7 +1,7 @@
 // Write your code here!
-var element = document.createElement("div");
-element.innerHTML = 'Hello, DOM!';
+document.getElementById('main').remove()
 
-document.body.appendChild(element);
-
-var ul = document.createElement('ul');
+let newHeader = document.createElement('h1'); 
+newHeader.id = 'victory'
+newHeader.innerHTML = 'is the champion'
+document.body.appendChild(newHeader); 
